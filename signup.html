@@ -1,0 +1,90 @@
+<!-- signup.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up - Planify</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #e6e6fa;
+      color: #4a235a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background: #fefaff;
+      padding: 2rem;
+      border-radius: 1.5rem;
+      box-shadow: 0 4px 20px rgba(176, 136, 255, 0.2);
+      text-align: center;
+      width: 90%;
+      max-width: 400px;
+    }
+
+    h2 {
+      color: #6c3483;
+      margin-bottom: 1rem;
+    }
+
+    input {
+      width: 100%;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border: 1px solid #dab6ff;
+      border-radius: 0.6rem;
+      background: #f4e8ff;
+      font-size: 1rem;
+    }
+
+    button {
+      background: #d8b0ff;
+      color: white;
+      border: none;
+      padding: 0.8rem 2rem;
+      border-radius: 0.6rem;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+
+    button:hover {
+      background: #c89ced;
+    }
+
+    p {
+      font-size: 0.9rem;
+      margin-top: 1rem;
+    }
+
+    a {
+      color: #a065d9;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>🌸 Create Your Planify Account 🌸</h2>
+    <input type="text" placeholder="Username" />
+    <input type="email" placeholder="Email" />
+    <input type="password" placeholder="Password" />
+    <button onclick="signup()">Sign Up</button>
+    <p>Already have an account? <a href="index.html">Login</a></p>
+  </div>
+
+  <script>
+    function signup() {
+      alert("Sign up is just for show! You can login using username: admin and password: 1234 😄");
+    }
+  </script>
+
+</body>
+</html>
